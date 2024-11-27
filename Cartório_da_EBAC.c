@@ -155,6 +155,11 @@ int main()
 	       	Deletar(); 
 	       	break;
 	       	
+	       	case 4:
+	       		printf("Agradecemos pelo uso do nosso sistema! \n");
+	       		return 0;
+	       		break;
+	       	
 	       	default:
 	       		printf("Desculpe, mas esta opção não está disponível\n"); // Outra opção que seja as acima volta que não está disponivel
 	       		system("pause"); //Fim da seleção}
